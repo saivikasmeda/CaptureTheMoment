@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D50BF1C456840065CC6CCB0 /* Pods_CaptureTheMoment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41CBC5438A89BEED9ABE1E7B /* Pods_CaptureTheMoment.framework */; };
+		8BACA0E02337DFF300F95B0C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8BACA0DF2337DFF300F95B0C /* GoogleService-Info.plist */; };
 		8BF51F5B2337DD020099E070 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF51F5A2337DD020099E070 /* AppDelegate.swift */; };
 		8BF51F5D2337DD020099E070 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF51F5C2337DD020099E070 /* ViewController.swift */; };
 		8BF51F602337DD020099E070 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BF51F5E2337DD020099E070 /* Main.storyboard */; };
@@ -15,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		071CFAAF8AD991BB77F52D44 /* Pods-CaptureTheMoment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaptureTheMoment.release.xcconfig"; path = "Target Support Files/Pods-CaptureTheMoment/Pods-CaptureTheMoment.release.xcconfig"; sourceTree = "<group>"; };
+		41CBC5438A89BEED9ABE1E7B /* Pods_CaptureTheMoment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaptureTheMoment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BACA0DF2337DFF300F95B0C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8BF51F572337DD020099E070 /* CaptureTheMoment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaptureTheMoment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BF51F5A2337DD020099E070 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BF51F5C2337DD020099E070 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		8BF51F612337DD030099E070 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BF51F642337DD030099E070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BF51F662337DD030099E070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F96EC0D8A6361990F106E7AF /* Pods-CaptureTheMoment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaptureTheMoment.debug.xcconfig"; path = "Target Support Files/Pods-CaptureTheMoment/Pods-CaptureTheMoment.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D50BF1C456840065CC6CCB0 /* Pods_CaptureTheMoment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,8 @@
 			children = (
 				8BF51F592337DD020099E070 /* CaptureTheMoment */,
 				8BF51F582337DD020099E070 /* Products */,
+				ACDD2891992BE70C41BF65EB /* Pods */,
+				A475A827ECF43B42BCD2CFE4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +69,26 @@
 				8BF51F612337DD030099E070 /* Assets.xcassets */,
 				8BF51F632337DD030099E070 /* LaunchScreen.storyboard */,
 				8BF51F662337DD030099E070 /* Info.plist */,
+				8BACA0DF2337DFF300F95B0C /* GoogleService-Info.plist */,
 			);
 			path = CaptureTheMoment;
+			sourceTree = "<group>";
+		};
+		A475A827ECF43B42BCD2CFE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41CBC5438A89BEED9ABE1E7B /* Pods_CaptureTheMoment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACDD2891992BE70C41BF65EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F96EC0D8A6361990F106E7AF /* Pods-CaptureTheMoment.debug.xcconfig */,
+				071CFAAF8AD991BB77F52D44 /* Pods-CaptureTheMoment.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8BF51F692337DD030099E070 /* Build configuration list for PBXNativeTarget "CaptureTheMoment" */;
 			buildPhases = (
+				80849621DB4C390B594F08CA /* [CP] Check Pods Manifest.lock */,
 				8BF51F532337DD020099E070 /* Sources */,
 				8BF51F542337DD020099E070 /* Frameworks */,
 				8BF51F552337DD020099E070 /* Resources */,
+				40EB3F3113D0B4C4AB449E4F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,12 +152,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BF51F652337DD030099E070 /* LaunchScreen.storyboard in Resources */,
+				8BACA0E02337DFF300F95B0C /* GoogleService-Info.plist in Resources */,
 				8BF51F622337DD030099E070 /* Assets.xcassets in Resources */,
 				8BF51F602337DD020099E070 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40EB3F3113D0B4C4AB449E4F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CaptureTheMoment/Pods-CaptureTheMoment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CaptureTheMoment/Pods-CaptureTheMoment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CaptureTheMoment/Pods-CaptureTheMoment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80849621DB4C390B594F08CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CaptureTheMoment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8BF51F532337DD020099E070 /* Sources */ = {
@@ -280,6 +352,7 @@
 		};
 		8BF51F6A2337DD030099E070 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F96EC0D8A6361990F106E7AF /* Pods-CaptureTheMoment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -288,7 +361,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.vikasPractice.CaptureTheMoment;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saivikas.CaptureTheMoment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -297,6 +370,7 @@
 		};
 		8BF51F6B2337DD030099E070 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 071CFAAF8AD991BB77F52D44 /* Pods-CaptureTheMoment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -305,7 +379,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.vikasPractice.CaptureTheMoment;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saivikas.CaptureTheMoment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

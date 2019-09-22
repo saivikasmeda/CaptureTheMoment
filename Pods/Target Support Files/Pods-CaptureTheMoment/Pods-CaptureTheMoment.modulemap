@@ -1,0 +1,6 @@
+framework module Pods_CaptureTheMoment {
+  umbrella header "Pods-CaptureTheMoment-umbrella.h"
+
+  export *
+  module * { export * }
+}
