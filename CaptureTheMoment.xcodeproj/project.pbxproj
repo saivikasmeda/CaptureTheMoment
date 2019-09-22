@@ -9,8 +9,10 @@
 /* Begin PBXBuildFile section */
 		3D50BF1C456840065CC6CCB0 /* Pods_CaptureTheMoment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41CBC5438A89BEED9ABE1E7B /* Pods_CaptureTheMoment.framework */; };
 		8BACA0E02337DFF300F95B0C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8BACA0DF2337DFF300F95B0C /* GoogleService-Info.plist */; };
+		8BACA0E22337E27A00F95B0C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BACA0E12337E27A00F95B0C /* SignUpViewController.swift */; };
+		8BACA0E42337FF1400F95B0C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BACA0E32337FF1400F95B0C /* HomeViewController.swift */; };
 		8BF51F5B2337DD020099E070 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF51F5A2337DD020099E070 /* AppDelegate.swift */; };
-		8BF51F5D2337DD020099E070 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF51F5C2337DD020099E070 /* ViewController.swift */; };
+		8BF51F5D2337DD020099E070 /* SignInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF51F5C2337DD020099E070 /* SignInController.swift */; };
 		8BF51F602337DD020099E070 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BF51F5E2337DD020099E070 /* Main.storyboard */; };
 		8BF51F622337DD030099E070 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BF51F612337DD030099E070 /* Assets.xcassets */; };
 		8BF51F652337DD030099E070 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BF51F632337DD030099E070 /* LaunchScreen.storyboard */; };
@@ -20,9 +22,11 @@
 		071CFAAF8AD991BB77F52D44 /* Pods-CaptureTheMoment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaptureTheMoment.release.xcconfig"; path = "Target Support Files/Pods-CaptureTheMoment/Pods-CaptureTheMoment.release.xcconfig"; sourceTree = "<group>"; };
 		41CBC5438A89BEED9ABE1E7B /* Pods_CaptureTheMoment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaptureTheMoment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BACA0DF2337DFF300F95B0C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8BACA0E12337E27A00F95B0C /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		8BACA0E32337FF1400F95B0C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		8BF51F572337DD020099E070 /* CaptureTheMoment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaptureTheMoment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BF51F5A2337DD020099E070 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8BF51F5C2337DD020099E070 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8BF51F5C2337DD020099E070 /* SignInController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInController.swift; sourceTree = "<group>"; };
 		8BF51F5F2337DD020099E070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8BF51F612337DD030099E070 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BF51F642337DD030099E070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -64,8 +68,10 @@
 			isa = PBXGroup;
 			children = (
 				8BF51F5A2337DD020099E070 /* AppDelegate.swift */,
-				8BF51F5C2337DD020099E070 /* ViewController.swift */,
+				8BF51F5C2337DD020099E070 /* SignInController.swift */,
+				8BACA0E12337E27A00F95B0C /* SignUpViewController.swift */,
 				8BF51F5E2337DD020099E070 /* Main.storyboard */,
+				8BACA0E32337FF1400F95B0C /* HomeViewController.swift */,
 				8BF51F612337DD030099E070 /* Assets.xcassets */,
 				8BF51F632337DD030099E070 /* LaunchScreen.storyboard */,
 				8BF51F662337DD030099E070 /* Info.plist */,
@@ -207,8 +213,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BF51F5D2337DD020099E070 /* ViewController.swift in Sources */,
+				8BACA0E22337E27A00F95B0C /* SignUpViewController.swift in Sources */,
+				8BF51F5D2337DD020099E070 /* SignInController.swift in Sources */,
 				8BF51F5B2337DD020099E070 /* AppDelegate.swift in Sources */,
+				8BACA0E42337FF1400F95B0C /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +364,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZCBH86G7UY;
 				INFOPLIST_FILE = CaptureTheMoment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -374,6 +383,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZCBH86G7UY;
 				INFOPLIST_FILE = CaptureTheMoment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
