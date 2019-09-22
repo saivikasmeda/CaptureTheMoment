@@ -46,6 +46,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8BACA0E82338193600F95B0C /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				8BF51F612337DD030099E070 /* Assets.xcassets */,
+				8BF51F662337DD030099E070 /* Info.plist */,
+				8BACA0DF2337DFF300F95B0C /* GoogleService-Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		8BACA0E92338194E00F95B0C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8BF51F5E2337DD020099E070 /* Main.storyboard */,
+				8BF51F632337DD030099E070 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		8BACA0EA2338196300F95B0C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8BF51F5C2337DD020099E070 /* SignInController.swift */,
+				8BACA0E12337E27A00F95B0C /* SignUpViewController.swift */,
+				8BACA0E32337FF1400F95B0C /* HomeViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		8BF51F4E2337DD020099E070 = {
 			isa = PBXGroup;
 			children = (
@@ -68,14 +97,9 @@
 			isa = PBXGroup;
 			children = (
 				8BF51F5A2337DD020099E070 /* AppDelegate.swift */,
-				8BF51F5C2337DD020099E070 /* SignInController.swift */,
-				8BACA0E12337E27A00F95B0C /* SignUpViewController.swift */,
-				8BF51F5E2337DD020099E070 /* Main.storyboard */,
-				8BACA0E32337FF1400F95B0C /* HomeViewController.swift */,
-				8BF51F612337DD030099E070 /* Assets.xcassets */,
-				8BF51F632337DD030099E070 /* LaunchScreen.storyboard */,
-				8BF51F662337DD030099E070 /* Info.plist */,
-				8BACA0DF2337DFF300F95B0C /* GoogleService-Info.plist */,
+				8BACA0EA2338196300F95B0C /* ViewControllers */,
+				8BACA0E92338194E00F95B0C /* Storyboards */,
+				8BACA0E82338193600F95B0C /* SupportingFiles */,
 			);
 			path = CaptureTheMoment;
 			sourceTree = "<group>";
